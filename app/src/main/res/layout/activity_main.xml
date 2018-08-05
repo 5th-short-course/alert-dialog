@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Alter Dialog"
+        android:id="@+id/btnMessageAlterDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single choice Alter Dialog"
+        android:id="@+id/btnSingleChoiceAlterDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Radio Alter Dialog"
+        android:id="@+id/btnRadioAlterDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox Alter Dialog"
+        android:id="@+id/btnCheckBoxAlterDialog"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Fragment with AlterDialog"
+        android:id="@+id/btnDialogFragmentAlterDialog"/>
+</LinearLayout>

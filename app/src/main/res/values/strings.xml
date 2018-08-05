@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Alter-Dialog</string>
+    <string name="message">Instead of slow reflection, code is generated to perform the view look-ups. Calling bind delegates to this generated code that you can see and debug.</string>
+</resources>
